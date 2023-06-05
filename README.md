@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Vaibhav Doddihal aka @vibbs
 - 👀 I’m interested in coding, food, alcohol, art and animes
-- 🌱 I’m currently learning web3.0, and trying to relearn many other aspects of life :)
+- 🌱 I’m currently learning Langchain, LLMs, prompt-engineering, and building [SarathiAI](https://www.sarathiai.com/), and trying to relearn many other aspects of life :)
 
 
 <!---
