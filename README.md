@@ -68,6 +68,6 @@ Neo4j with OpenAI: Building Generative AI Solutions – graphs meet generative A
 
 🍹 Current cocktail experiment: Bear Mimosa.
 
-📚 Manga binge: One Piece – still catching up on 1000+ chapters.
+📚 Manga binge: One Piece – still catching up on latest ones.
 
 </details>
