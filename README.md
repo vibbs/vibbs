@@ -14,7 +14,7 @@
 
 | Area | TL;DR |
 |------|-------|
-| **GenAI / Agentic Systems** | Playing with composable stacks – LangGraph, CrewAI, PydanticAI, Google AI Studio, Azure Studio – to see how many agents it takes to replace a boring cron job. |
+| **GenAI / Agentic Systems** | Playing with composable stacks – LangGraph, CrewAI, PydanticAI, Google AI Studio, Azure Studio – to see how many agents it takes to replace a boring jobs. |
 | **Platform Engineering** | Designed & scaled SaaS for 2M+ users, cut cloud bills 15%, dropped P99 latency 40%. Translation: fewer 3 AM on-call nightmares. |
 | **Architecture** | Event-driven, microservices, plugin-based platforms… aka: "if it scales and doesn’t bankrupt you, I’m in." |
 | **Knowledge Sharing** | Writing at <a href="https://blocksimplified.com/">BlockSimplified</a> – breaking tech into digestible blocks (because nobody deserves a 200-page whitepaper hangover). |
