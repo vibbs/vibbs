@@ -1,73 +1,62 @@
-<!-- ============================================================
-       GitHub Profile • Vaibhav Doddihal (@vibbs)
-       ============================================================ -->
+## Hey, I'm Vaibhav 👋
 
-<h2 align="center">Hey, I’m Vaibhav Doddihal 👋</h2>
+> Most AI demos die somewhere between the notebook and production.
+> I work on the part after the demo: evals, observability, governance, and agents you can actually trust with real work.
 
-<p align="center">
-  <em>Principal Engineer · Solution Architect · Builder of SaaS & AI Systems · Chronic Simplifier</em>
-</p>
+**Principal Engineer · Applied AI.** Currently building **ArcAI** at GrowthArc, an enterprise platform for designing, running, evaluating, and governing AI agents at scale. Basically, it's how you go from "we have an agent" to "we have fifty agents, and we know what every one of them did and why."
 
 ---
 
-## 🛠️ What I Actually Do
+### 📝 I write it, then I ship the code
 
-| Area | TL;DR |
-|------|-------|
-| **GenAI / Agentic Systems** | Playing with composable stacks – LangGraph, CrewAI, PydanticAI, Google AI Studio, Azure Studio – to see how many agents it takes to replace a boring jobs. |
-| **Platform Engineering** | Designed & scaled SaaS for 2M+ users, cut cloud bills 15%, dropped P99 latency 40%. Translation: fewer 3 AM on-call nightmares. |
-| **Architecture** | Event-driven, microservices, plugin-based platforms… aka: "if it scales and doesn’t bankrupt you, I’m in." |
-| **Knowledge Sharing** | Writing at <a href="https://blocksimplified.com/">BlockSimplified</a> – breaking tech into digestible blocks (because nobody deserves a 200-page whitepaper hangover). |
+I break down applied AI on [BlockSimplified](https://www.blocksimplified.com/). When a post is about building something, it comes with a repo you can clone and run, not "left as an exercise for the reader."
+
+| Post | Runnable repo |
+|------|---------------|
+| [Continuous Monitoring & Improvement for AI Systems](https://blocksimplified.com/blog/continuous-monitoring-improvement-ai-systems) | [`bsb-llm-monitoring-lab`](https://github.com/vibbs/bsb-llm-monitoring-lab): instrumented app, self-hosted Langfuse, feedback scores, golden-dataset regressions |
+| [The Evolution to Context Engineering & RAG](https://www.blocksimplified.com/blog/the-evolution-to-context-engineering-and-rag) | [`evo-context-engineering`](https://github.com/vibbs/evo-context-engineering): from bare LLM calls to RAG with PII handling, citations, lost-in-the-middle fixes, and evals |
+| [Orchestration Frameworks: LangChain vs LlamaIndex vs Semantic Kernel vs CrewAI…](https://www.blocksimplified.com/blog/orchestration-frameworks-langchain-vs-llamaindex-vs-semantic-kernel-vs-crewai-and-more) | [`agent-orchestration-fw-rag`](https://github.com/vibbs/agent-orchestration-fw-rag): one RAG task built in every framework, so you can compare them without guessing |
+| [Advanced Prompting Techniques for Complex Reasoning](https://www.blocksimplified.com/blog/advanced-prompting-techniques-for-complex-reasoning) | [`adv-prompt-techniques`](https://github.com/vibbs/adv-prompt-techniques): reasoning techniques as working Python, not slides |
+
+### 🧮 Free AI tools on BlockSimplified
+
+These are small, focused tools for the questions every AI project hits sooner or later. They run in the browser, with no sign-up.
+
+- **[AI Cost Estimator](https://www.blocksimplified.com/projects/ai-cost-estimator)** works out what your AI project will really cost: LLM calls, embeddings, vector DBs, guardrails, human review, and the parts nobody budgets for.
+- **[AI Architecture Advisor](https://www.blocksimplified.com/projects/ai-architecture-advisor)** asks 8 questions and recommends one of 12 patterns (RAG, GraphRAG, fine-tuning, agents, and more).
+- **[EU AI Act Risk Classifier](https://www.blocksimplified.com/projects/eu-ai-act-classifier)** gives you your risk tier, your obligations, and the deadlines, with a downloadable PDF report.
+- **[Context Window Visualizer](https://www.blocksimplified.com/projects/context-visualizer)** shows where your tokens actually go, checked against 11 models.
+- **[LLM Matchmaker](https://www.blocksimplified.com/projects/llm-matchmaker)** helps you pick a model based on your use case and budget, not on hype.
+
+### 🛠️ Tools I built for agents
+
+- **[company-os](https://github.com/vibbs/company-os)** gives your repo an AI agent team (requirements → design → code → QA → launch) with a human approving every step. It runs on Claude Code, Cursor, Codex CLI, Gemini CLI, and Aider.
+- **[agent-skills](https://github.com/vibbs/agent-skills)** holds reusable skills for AI coding agents, written to the open [Agent Skills spec](https://agentskills.io/specification) and validated in CI. Install them with `npx skills add vibbs/agent-skills`.
+
+### 🔒 Building in private
+
+- **agent13** is my personal agent harness for research and knowledge consumption. It reads more than I do, and it's also better at taking notes.
+- **Ikiglow** is a calm AI companion for personal growth, with voice journaling, AI transcription, and pattern insights across web and mobile.
+
+### 📈 Before agents were cool
+
+I designed and scaled SaaS platforms serving **2M+ users**, cut cloud spend by **15%**, and dropped **P99 latency by 40%**. That's where I learned the unglamorous parts that AI systems also need.
+
+**Stack:** Python · TypeScript · FastAPI · Node.js · Postgres · Neo4j · Kubernetes · AWS · LangGraph · Langfuse · Claude / OpenAI / Gemini
 
 ---
 
-## 🔭 Currently Focused On
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/vaibhavdod)
+[![BlockSimplified](https://img.shields.io/badge/BlockSimplified-111111?style=flat&logo=hashnode&logoColor=white)](https://www.blocksimplified.com/)
+[![Website](https://img.shields.io/badge/vibbsdod.com-222222?style=flat&logo=vercel&logoColor=white)](https://vibbsdod.com)
+[![X](https://img.shields.io/badge/@vibbs__-000000?style=flat&logo=x&logoColor=white)](https://x.com/vibbs_)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:vibbs.dod@gmail.com)
 
-```mermaid
-graph TD
-  A(Composable AI Tools) --> B(Agent Workflows)
-  B --> C(Edge Deployments)
-  C --> D(Developer&nbsp;Experience&nbsp;Tooling)
-```
+<details>
+<summary>🍣 Off the clock</summary>
 
-
-- Orchestrating GenAI agents with LangGraph, CrewAI, Google AI Studio, Azure Studio (and friends).
-
-- Exploring fault-tolerant, high-throughput orchestration (Python / Node.js).
-
-- Writing about AI in production, platform cost-kills, and career lattices (a.k.a. not a ladder).
-
----
-
-## 🧰 Tech I Enjoy
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white) ![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat&logo=neo4j&logoColor=white) ![GenAI](https://img.shields.io/badge/GenAI-111111?style=flat&logo=openai&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logo=github&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-9146FF?style=flat&logo=anthropic&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat&logo=google&logoColor=white)
-
-
----
-
-
-
-##  ✍️ Recent Writings
-
-How to get started with AI: Learning Pathways for Tech and Beyond – finding your AI learning track without the overwhelm (Mar 2025)
-
-Understanding RAGs, Multimodal RAGs and the Future of Enterprise Search – why RAG is more than just another buzzword (Feb 2025)
-
-Neo4j with OpenAI: Building Generative AI Solutions – graphs meet generative AI (Nov 2024)
-<sub>(More at <a href="https://blocksimplified.com/">BlockSimplified</a>)</sub>
-
-##  💬 Let’s Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/vaibhavdod) [![BlockSimplified](https://img.shields.io/badge/BlockSimplified-111111?style=flat&logo=hashnode&logoColor=white)](https://blocksimplified.com/) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/vibbs_) [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:vibbs.dod@gmail.com)
-
-
-<details> <summary>🍣 Fun facts</summary>
-
-🎮 Planning a 5-year roadmap (spoiler: side projects everywhere).
-
-🍹 Current cocktail experiment: Bear Mimosa.
-
-📚 Manga binge: One Piece – still catching up on latest ones.
+- 🎮 Running a 5-year roadmap, which mostly means side projects everywhere.
+- 🍹 Current cocktail experiment: Bear Mimosa.
+- 📚 Still catching up on One Piece. It's a long-running job with no SLA.
 
 </details>
